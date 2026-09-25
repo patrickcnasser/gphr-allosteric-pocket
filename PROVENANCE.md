@@ -107,4 +107,4 @@ Runtime: ~3 minutes for everything except docking; ~35 minutes on 2 cores includ
 > with enumeration of the ligand's automorphisms, because the docking software does not
 > preserve input atom order. The complete package — scripts, raw docking output, transformed
 > coordinates, alignments and PyMOL figure scripts — regenerates every reported value with a
-> single command (`run_all.sh`) and is available at [repository].
+> single command (`run_all.sh`) and is available at https://doi.org/10.5281/zenodo.22969110 (GitHub: https://github.com/patrickcnasser/gphr-allosteric-pocket).
