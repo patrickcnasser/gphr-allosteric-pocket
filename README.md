@@ -1,5 +1,7 @@
 # gphr-allosteric-pocket
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22969110.svg)](https://doi.org/10.5281/zenodo.22969110)
+
 Structural comparison of the LHCGR and FSHR allosteric binding pockets, using cryo-EM structures of LHCGR with Org 43553 (PDB [7FIH](https://www.rcsb.org/structure/7FIH)) and FSHR with Cpd-21f (PDB [8I2G](https://www.rcsb.org/structure/8I2G)).
 
 This package accompanies:
