@@ -1,0 +1,20 @@
+Control 1 -- published LHCGR contact distances (Duan et al. 2021)
+residue    published  computed   delta
+PHE350          3.34      3.34    0.00
+PHE515          3.21      3.21   -0.00
+ILE585          4.48      4.48    0.00
+ALA589          3.84      3.84    0.00
+TYR612          3.78      3.78    0.00
+max |delta| = 0.0039 A   -> PASS
+
+Control 2 -- alignment scheme comparison
+  identity(match2/mis-1/gap-8/ext-1): 547 pairs, 60.7% identity; 612->HIS615, 515->LEU518
+  BLOSUM62(gap-11/ext-1): 547 pairs, 61.2% identity; 612->HIS615, 515->LEU518
+  the two schemes give DIFFERENT pairings
+
+Control 3 -- TM superposition: 187 CA pairs, RMSD 0.64 A, 0 pruned at 2.0 A
+Control 4 -- round-trip of 55Z through forward+inverse: max error 1.8419e-13 A
+Control 5 -- mapped 55Z tert-butyl vs Cpd-21f tert-butyl centroid: 0.63 A
+
+union positions 27: 20 identical, 7 divergent (74% conserved)
+divergent set: PHE515/LEU518, VAL519/ILE522, ILE528/VAL531, ILE531/LEU534, ALA593/SER596, SER604/ALA607, TYR612/HIS615

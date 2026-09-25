@@ -1,0 +1,26 @@
+decoy robustness: fragment exchange across all high-RMSD, same-centroid poses
+19/23 decoys show a reciprocal head-to-tail exchange (morpholine into the tert-butyl site AND tert-butyl into the tail site)
+
+  ad4_scoring_rigid#1  rmsd 10.4  morpholine->tBu+amide  tBu->morpholine
+  ad4_scoring_rigid#2  rmsd 10.2  morpholine->tBu+amide  tBu->morpholine
+  ad4_scoring_rigid#3  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  dkoes_fast_rigid#2  rmsd 6.0  morpholine->phenyl  tBu->tBu+amide
+  dkoes_fast_rigid#7  rmsd 10.1  morpholine->tBu+amide  tBu->morpholine
+  dkoes_fast_rigid#9  rmsd 8.6  morpholine->tBu+amide  tBu->phenyl
+  dkoes_scoring_rigid#1  rmsd 6.6  morpholine->anilide  tBu->2-SMe
+  dkoes_scoring_rigid#6  rmsd 8.5  morpholine->tBu+amide  tBu->phenyl
+  gnina_cnn#3  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  gnina_cnn#9  rmsd 9.8  morpholine->tBu+amide  tBu->morpholine
+  vina_flexK595#1  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vina_flexK595#2  rmsd 10.5  morpholine->tBu+amide  tBu->morpholine
+  vina_flexK595#3  rmsd 10.7  morpholine->tBu+amide  tBu->morpholine
+  vina_flexK595#7  rmsd 10.3  morpholine->tBu+amide  tBu->morpholine
+  vina_flexK595#9  rmsd 10.5  morpholine->tBu+amide  tBu->morpholine
+  vina_rigid#1  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vina_rigid#6  rmsd 9.8  morpholine->tBu+amide  tBu->morpholine
+  vinardo_flexK595#5  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vinardo_flexK595#7  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vinardo_flexK595#9  rmsd 10.4  morpholine->tBu+amide  tBu->morpholine
+  vinardo_rigid#3  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vinardo_rigid#5  rmsd 10.6  morpholine->tBu+amide  tBu->morpholine
+  vinardo_rigid#6  rmsd 10.3  morpholine->tBu+amide  tBu->morpholine

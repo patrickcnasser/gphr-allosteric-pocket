@@ -1,0 +1,14 @@
+Sampling-independent rescoring control (symmetry-corrected RMSD)
+Ensemble = minimised crystallographic pose (member 1) + 9 docked poses.
+Question: does each scoring function rank the crystallographic pose first?
+
+scoring function     crystal rank  of  top pose RMSD  verdict
+vina                            5  10         10.58A     FAIL
+vinardo                         6  10          0.99A     PASS
+ad4_scoring                     6  10          3.77A     FAIL
+dkoes_scoring                   2  10          3.77A     FAIL
+dkoes_fast                      7  10          5.47A     FAIL
+cnn                             3  10          0.99A     PASS
+
+The crystallographic pose is in the ensemble by construction, so this control does
+not depend on whether the search can find it.

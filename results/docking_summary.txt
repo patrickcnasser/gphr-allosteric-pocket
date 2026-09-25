@@ -1,0 +1,16 @@
+Supplementary docking table -- all configurations, all poses.
+RMSD is symmetry-corrected and order-independent (graph isomorphism + automorphisms).
+Bar: the top-ranked pose must lie within 2.0 A of the crystallographic pose.
+
+configuration           top RMSD  best in set  native rank  verdict
+ad4_scoring_rigid         10.42A        1.03A            7     FAIL
+dkoes_fast_rigid           8.19A        2.17A            6     FAIL
+dkoes_scoring_rigid        6.59A        3.47A            3     FAIL
+gnina_cnn                  0.99A        0.99A            1     PASS
+vina_flexK595             10.55A        0.99A            4     FAIL
+vina_rigid                10.58A        0.99A            2     FAIL
+vinardo_flexK595           0.93A        0.89A            3     PASS
+vinardo_rigid              3.76A        0.82A            2     FAIL
+
+'best in set' is the closest pose the search produced; 'native rank' is its rank
+under that configuration's own scoring function.

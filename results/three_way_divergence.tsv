@@ -1,0 +1,64 @@
+LHCGR	min_dist_to_Org43553	shell	FSHR	TSHR	pattern
+SER604	2.78	contact	ALA607	S659	FSHR unique
+PHE515	3.21	contact	LEU518	L570	LHCGR unique
+PRO597	3.27	contact	PRO600	P652	all three identical
+PHE350	3.34	contact	PHE353	F405	all three identical
+PRO516	3.37	contact	PRO519	P571	all three identical
+LYS595	3.41	contact	LYS598	N650	TSHR unique
+VAL519	3.41	contact	ILE522	T574	all three differ
+MET517	3.49	contact	MET520	M572	all three identical
+VAL601	3.49	contact	VAL604	V656	all three identical
+ILE531	3.52	contact	LEU534	V586	all three differ
+GLU451	3.53	contact	GLU454	E506	all three identical
+ALA592	3.58	contact	ALA595	A647	all three identical
+ILE528	3.67	contact	VAL531	I583	FSHR unique
+TYR612	3.78	contact	HIS615	Y667	FSHR unique
+ALA589	3.84	contact	ALA592	A644	all three identical
+ILE599	3.86	contact	ILE602	I654	all three identical
+VAL447	3.96	contact	VAL450	V502	all three identical
+SER450	4.07	contact	SER453	S505	all three identical
+ALA349	4.19	contact	ALA352	E404	TSHR unique
+PHE588	4.25	contact	PHE591	Y643	TSHR unique
+ALA593	4.33	contact	SER596	I648	all three differ
+ASN535	4.40	contact	ASN538	N590	all three identical
+ILE585	4.48	contact	ILE588	I640	all three identical
+THR446	4.52	8A	THR449	T501	all three identical
+THR600	4.60	8A	THR603	T655	all three identical
+LEU532	4.73	8A	LEU535	L587	all three identical
+LEU607	4.90	8A	LEU610	L662	all three identical
+ASP518	5.44	8A	ASP521	D573	all three identical
+TYR527	5.72	8A	TYR530	Y582	all three identical
+LEU608	6.00	8A	LEU611	L663	all three identical
+GLY443	6.01	8A	GLY446	G498	all three identical
+ILE497	6.27	8A	ALA500	L552	all three differ
+PRO584	6.29	8A	PRO587	P639	all three identical
+ILE590	6.33	8A	ILE593	L645	TSHR unique
+PHE448	6.49	8A	PHE451	F503	all three identical
+PHE594	6.55	8A	LEU597	L649	LHCGR unique
+LEU598	6.61	8A	LEU601	L653	all three identical
+VAL596	6.64	8A	VAL599	K651	TSHR unique
+SER586	6.75	8A	SER589	S641	all three identical
+LYS605	6.77	8A	LYS608	K660	all three identical
+TYR508	6.77	8A	TYR511	Y563	all three identical
+THR602	6.78	8A	SER605	S657	LHCGR unique
+ILE513	6.82	8A	ILE516	I568	all three identical
+ASN603	6.97	8A	LYS606	N658	FSHR unique
+MET408	7.01	8A	ILE411	M463	FSHR unique
+SER591	7.09	8A	SER594	S646	all three identical
+PHE587	7.12	8A	PHE590	F642	all three identical
+LYS510	7.21	8A	LYS513	K565	all three identical
+LEU529	7.28	8A	MET532	V584	all three differ
+GLU520	7.28	8A	ASP523	E575	FSHR unique
+VAL511	7.30	8A	VAL514	V566	all three identical
+PHE445	7.32	8A	PHE448	F500	all three identical
+CYS514	7.39	8A	CYS517	C569	all three identical
+ASP348	7.44	8A	ASP351	D403	all three identical
+VAL454	7.45	8A	VAL457	V509	all three identical
+ASN351	7.50	8A	ASN354	N406	all three identical
+SER524	7.56	8A	SER527	A579	TSHR unique
+PHE444	7.74	8A	PHE447	F499	all three identical
+ALA449	7.76	8A	ALA452	A504	all three identical
+GLN525	7.79	8A	GLN528	L580	TSHR unique
+PRO352	7.85	8A	PRO355	P407	all three identical
+ALA498	7.95	8A	ALA501	A553	all three identical
+ALA442	7.96	8A	ALA445	A497	all three identical

@@ -1,0 +1,83 @@
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders
+
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.1 master:e4cb380+   Built Dec 18 2023.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: No GPU detected. CNN scoring will be slow.
+Recommend running with single model (--cnn crossdock_default2018)
+or without cnn scoring (--cnn_scoring=none).
+
+Commandline: /home/claude/dock/gnina11 -r /home/claude/paper/inputs/receptor.pdb -l /home/claude/paper/results/rescore/ensemble.sdf --score_only --scoring vinardo --cnn_scoring none --no_gpu --cpu 2
+## Name gauss(o=0,_w=0.8,_c=8) repulsion(o=0,_c=8) hydrophobic(g=0,_b=2.5,_c=8) non_dir_h_bond(g=-0.6,_b=0,_c=8) num_tors_div
+Affinity: -7.39712 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.12436
+Term values, before weighting:
+## 55Z_Org43553 172.40077 3.38704 81.48344 0.88725 0.00000
+Affinity: -8.08647 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.10534
+Term values, before weighting:
+## 55Z_Org43553 170.04324 2.18855 70.32834 1.42662 0.00000
+Affinity: -8.27997 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.92114
+Term values, before weighting:
+## 55Z_Org43553 171.07751 1.67708 80.16762 0.46078 0.00000
+Affinity: -7.90914 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.13737
+Term values, before weighting:
+## 55Z_Org43553 181.81047 2.64279 78.78312 0.31962 0.00000
+Affinity: -7.64384 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: -0.20830
+Term values, before weighting:
+## 55Z_Org43553 172.58191 2.33891 80.54034 0.00000 0.00000
+Affinity: -7.68925 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.37922
+Term values, before weighting:
+## 55Z_Org43553 175.66408 2.41431 72.19516 0.44246 0.00000
+Affinity: -6.15371 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.35725
+Term values, before weighting:
+## 55Z_Org43553 166.81593 3.68133 68.03475 0.12046 0.00000
+Affinity: -6.50533 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: -0.34159
+Term values, before weighting:
+## 55Z_Org43553 166.76108 3.17455 70.04182 0.00000 0.00000
+Affinity: -6.54622 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 2.80503
+Term values, before weighting:
+## 55Z_Org43553 181.19911 5.25529 100.36838 0.00000 0.00000
+Affinity: -6.12891 (kcal/mol)
+CNNscore: -1.00000 
+CNNaffinity: 0.00000
+Intramolecular energy: 0.42928
+Term values, before weighting:
+## 55Z_Org43553 176.37674 4.91880 82.28290 0.17470 0.00000

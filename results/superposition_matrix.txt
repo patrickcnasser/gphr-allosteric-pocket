@@ -1,0 +1,13 @@
+LHCGR(7FIH) -> FSHR(8I2G), Calpha, TM bundle (resnum>=340, CA within 25 A of ligand centroid)
+pairs used: 187   RMSD: 0.6408 A
+
+rotation R (row-major):
+   0.99611447  -0.08754067  -0.00962212
+   0.08779350   0.99568417   0.03008888
+   0.00694659  -0.03081672   0.99950091
+
+translation t:
+   12.39545145  -24.81197621  -0.86123302
+
+apply as: x_FSHR = R @ x_LHCGR + t
+inverse:  x_LHCGR = R.T @ (x_FSHR - t)

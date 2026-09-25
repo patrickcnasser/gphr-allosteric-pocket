@@ -1,0 +1,45 @@
+Selected decoy: vina_flexK595.sdf pose 3
+  symmetry-corrected heavy-atom RMSD to crystal pose : 10.67 A
+  centroid offset                                    : 0.24 A
+  fraction of atoms within 2 A of some crystal atom  : 97%
+  (72 poses examined across 8 configurations)
+  NOTE: coordinates are mapped into the reference atom order by graph isomorphism;
+        gnina does not preserve input atom order.
+
+(1) Where each fragment goes in the decoy pose
+fragment                   moves   lands in the subpocket natively occupied by
+2-methylthio                8.4 A   pendant phenyl (2.4 A)
+thienopyrimidine core       5.0 A   anilide linker (1.8 A)
+5-amino                     7.2 A   2-methylthio (1.8 A)
+tert-butyl+carboxamide     14.5 A   morpholine (0.5 A)
+pendant phenyl              4.4 A   thienopyrimidine core (1.0 A)
+anilide linker              9.3 A   tert-butyl+carboxamide (2.6 A)
+morpholine                 15.2 A   tert-butyl+carboxamide (1.7 A)
+
+(2a) Is the LIGAND itself pseudo-symmetric?
+  principal moments (relative): 1.00, 0.14, 0.02   -> elongated
+  180 deg about major  axis: self-RMSD 2.23 A
+  180 deg about middle axis: self-RMSD 1.83 A
+  180 deg about minor  axis: self-RMSD 2.14 A
+  best self-similarity under any 2-fold: 1.83 A
+  interpretation: a genuinely pseudo-symmetric ligand would map onto itself well under one of these (< ~1.5 A).
+
+(2b) Is the POCKET pseudo-symmetric? (chemistry at the two ends of the ligand axis)
+  end A (14 residues within 5 A): 9 hydrophobic, 5 polar (64% hydrophobic)
+  end B (12 residues within 5 A): 9 hydrophobic, 3 polar (75% hydrophobic)
+  residues shared by both ends: 1
+
+(3) Descriptors the scoring functions are built on -- native vs decoy
+descriptor                           native    decoy    delta
+protein neighbours < 5 A                303      322      +19
+protein neighbours < 4 A                 52       76      +24
+apolar C...C contacts < 4.5 A            60       96      +36
+polar N/O...N/O pairs < 3.5 A             3        1       -2
+steric clashes < 2.6 A                    0        0       +0
+  The classical terms are dominated by the first three. If the decoy matches or
+  exceeds the native on those while differing only in polar-pair count, the
+  functions have no term that distinguishes the orientations.
+
+(4) Contacts unique to one orientation (< 4.0 A in one, absent in the other)
+  residues contacting ONLY the native pose: 0
+  residues contacting ONLY the decoy pose: 0

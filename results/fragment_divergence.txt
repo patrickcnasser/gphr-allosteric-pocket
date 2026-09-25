@@ -1,0 +1,9 @@
+Fragment-level contact divergence: does the FSHR-selective ligand concentrate
+its contacts on divergent positions in a way Org 43553 does not?
+
+Org 43553 in LHCGR : 10/36 fragment-contacts are at divergent positions (28%)
+Cpd-21f  in FSHR   : 11/37 fragment-contacts are at divergent positions (30%)
+
+fragments of Org 43553 touching NO divergent position: 1/7
+   ring2_6mem_CNO
+fragments of Cpd-21f touching NO divergent position: 0/5

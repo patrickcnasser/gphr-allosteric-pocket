@@ -1,0 +1,36 @@
+Three-way comparison of the glycoprotein-hormone-receptor allosteric pocket
+
+TSHR P16473 length: 764 (UniProt states 764) -> OK
+LHCGR vs FSHR : 547 pairs, 61.2% identity
+LHCGR vs TSHR : 550 pairs, 60.7% identity
+
+CONTROL -- published TSHR equivalences, recovered without being supplied:
+  LHCGR PHE515 -> TSHR L570   literature says L570   MATCH   (ECL2 / the LHCGR-unique position)
+  LHCGR TYR612 -> TSHR Y667   literature says Y667   MATCH   (position 7.42)
+  LHCGR GLU451 -> TSHR E506   literature says E506   MATCH   (the E3.37 pharmacophore anchor)
+  control: PASS
+
+Pocket defined in LHCGR: 63 residues within 8.0 A, 23 within 4.5 A
+
+Three-way pattern over the 8 A shell:
+  all three identical     42
+  TSHR unique              7
+  FSHR unique              6
+  all three differ         5
+  LHCGR unique             3
+
+Positions unique to LHCGR WITHIN THE 4.5 A CONTACT SHELL (the claim the Phe515 argument rests on):
+  PHE515  3.21 A to Org 43553   FSHR LEU518   TSHR L570
+  count: 1
+
+contact-shell divergences vs FSHR: 7 of 23
+  PHE515/LEU518, VAL519/ILE522, ILE528/VAL531, ILE531/LEU534, ALA593/SER596, SER604/ALA607, TYR612/HIS615
+contact-shell divergences vs TSHR: 7 of 23
+  ALA349/E404, PHE515/L570, VAL519/T574, ILE531/V586, PHE588/Y643, ALA593/I648, LYS595/N650
+
+LIMIT OF THIS ANALYSIS
+  The pocket is defined by distance to Org 43553 in LHCGR, so these are the
+  paralog residues at LHCGR's pocket positions. Confirming that TSHR's own
+  allosteric pocket occupies the same positions, and computing a TSHR contact
+  shell, requires a TSHR structure with an allosteric agonist bound
+  (7XW5, ML-109). That file was not reachable from this environment.

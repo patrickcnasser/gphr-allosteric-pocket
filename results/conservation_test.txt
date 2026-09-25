@@ -1,0 +1,9 @@
+Is the allosteric contact shell more conserved than the TM background?
+
+whole aligned chain R      : 61.2% identity over 547 pairs
+TM background (resnum>=340): 70.0% identity over 303 pairs
+contact-shell union        : 74.1% identity (20/27)
+
+exact two-sided binomial, H0: shell identity == TM background (0.6997)
+  n = 27, k = 20, p = 0.8340
+  verdict: NOT significantly different

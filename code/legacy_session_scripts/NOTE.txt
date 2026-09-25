@@ -1,0 +1,4 @@
+These are the exploratory scripts as originally written during the session, kept for
+provenance. They depend on pickled state and, importantly, cavity.py contains two bugs
+documented in AUDIT.md (voxel-size mismatch and a box-edge artifact) and its result was
+withdrawn. Do not use them; use the numbered scripts in code/ instead.

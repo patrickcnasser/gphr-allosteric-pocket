@@ -1,0 +1,8 @@
+fragment	displacement_A	lands_nearest_to_native_fragment	distance_to_that_centroid
+2-methylthio	8.36	pendant phenyl	2.43
+thienopyrimidine core	5.02	anilide linker	1.83
+5-amino	7.23	2-methylthio	1.79
+tert-butyl+carboxamide	14.54	morpholine	0.49
+pendant phenyl	4.36	thienopyrimidine core	1.05
+anilide linker	9.26	tert-butyl+carboxamide	2.63
+morpholine	15.21	tert-butyl+carboxamide	1.67
