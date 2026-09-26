@@ -83,7 +83,7 @@ print("FIGURE OK" if abs(a-3.69) < 0.05 and abs(b-2.31) < 0.05 else "CHECK INPUT
 python end
 
 set ray_shadows, 0
-set ray_opaque_background, 0
+set ray_opaque_background, 1
 set antialias, 2
 set cartoon_transparency, 0.50
 set label_size, 16

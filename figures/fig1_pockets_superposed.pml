@@ -62,7 +62,7 @@ cmd.set("label_position", [4, -3, 0], "lhR and resi 528 and name CA")
 python end
 
 set ray_shadows, 0
-set ray_opaque_background, 0
+set ray_opaque_background, 1
 set antialias, 2
 set cartoon_transparency, 0.65
 set label_size, 16

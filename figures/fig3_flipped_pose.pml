@@ -53,7 +53,7 @@ hide labels, swap2
 # show sticks, discriminating
 
 set ray_shadows, 0
-set ray_opaque_background, 0
+set ray_opaque_background, 1
 set antialias, 2
 set cartoon_transparency, 0.65
 set label_size, 16
