@@ -188,7 +188,9 @@ with open(op('mapping_contacts.tsv'), 'w') as f:
                 rows.append((best[0], k, best[1], best[2]))
         for dd, k, a, ln in sorted(rows):
             partner = amap_.get(k[0])
-            other = (next((x[1] for x in (L_ord if tag.endswith('LHCGR') else F_ord)
+            # the partner number returned by amap_ belongs to the OTHER receptor,
+            # so it must be looked up in that receptor's ordered residue list
+            other = (next((x[1] for x in (F_ord if tag.endswith('LHCGR') else L_ord)
                            if x[0] == partner), None))
             st = 'unaligned' if other is None else ('divergent' if other != k[1] else 'conserved')
             f.write(f"{tag}\t{k[1]}{k[0]}({a})\t{ln}\t{dd:.2f}\t{st}\n")

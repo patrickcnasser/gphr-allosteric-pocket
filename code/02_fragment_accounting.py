@@ -93,7 +93,9 @@ def fragmentize(lig):
                 break
     ringatoms = set().union(*systems) if systems else set()
     frags = {}
-    for i, s in enumerate(systems, 1):
+    # sort ring systems by their atom names so the ringN indices are deterministic;
+    # without this, set iteration order can swap the labels between runs
+    for i, s in enumerate(sorted(systems, key=lambda t: sorted(t)), 1):
         comp = "".join(sorted(set(el[a] for a in s)))
         frags[f"ring{i}_{len(s)}mem_{comp}"] = sorted(s)
     # acyclic components

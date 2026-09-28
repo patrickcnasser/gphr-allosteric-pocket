@@ -18,6 +18,9 @@ python3 code/02_fragment_accounting.py
 echo "=== 07  three-way family comparison with TSHR ==="
 python3 code/07_three_way_tshr.py
 
+echo "=== 08  per-fragment burial table as reported in the manuscript ==="
+python3 code/08_manuscript_fragment_table.py
+
 if [ -n "${GNINA:-}" ]; then
   echo "=== docking sweep, 8 configurations ==="
   GNINA="$GNINA" bash code/run_docking_sweep.sh

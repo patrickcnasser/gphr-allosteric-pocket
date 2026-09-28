@@ -1,0 +1,12 @@
+# mean protein heavy atoms within 5 A per ligand atom, by fragment
+# C10 and C15 are the fused thiophene/pyrimidine atoms, counted with the thiophene only
+fragment	n_atoms	mean_neighbours_5A_LHCGR	mean_neighbours_5A_FSHR_mapped
+2-Methylthio	2	14.5	14.5
+tert-Butyl	4	11.0	8.5
+Pyrimidine	4	10.2	11.0
+Morpholine	6	8.8	10.8
+Thiophene	5	8.2	9.0
+Anilide linker	4	7.8	9.2
+Pendant phenyl	6	6.5	7.5
+Carboxamide	3	6.3	5.0
+Amino	1	6.0	7.0

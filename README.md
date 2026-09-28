@@ -1,6 +1,6 @@
 # gphr-allosteric-pocket
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22969110.svg)](https://doi.org/10.5281/zenodo.22969110)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22969109.svg)](https://doi.org/10.5281/zenodo.22969109)
 
 Structural comparison of the LHCGR and FSHR allosteric binding pockets, using cryo-EM structures of LHCGR with Org 43553 (PDB [7FIH](https://www.rcsb.org/structure/7FIH)) and FSHR with Cpd-21f (PDB [8I2G](https://www.rcsb.org/structure/8I2G)).
 
@@ -21,6 +21,7 @@ The numbered scripts in `code/` reproduce every structural analysis in the manus
 - Redocking with symmetry-corrected RMSD across eight scoring configurations
 - Sampling-independent rescoring control
 - Head-to-tail decoy characterisation
+- Per-fragment burial table exactly as reported in the manuscript (`08_manuscript_fragment_table.py`)
 
 ## Reproducing the results
 
@@ -37,6 +38,18 @@ GNINA=/path/to/gnina ./run_all.sh
 If gnina is not available, `run_all.sh` re-analyses the shipped docking outputs instead.
 
 Outputs land in `results/` and `figures/`. Nothing else is written.
+
+## Verifying the package
+
+`MANIFEST.md5` lists the md5 of every file. From inside the package directory:
+
+```bash
+md5sum -c MANIFEST.md5      # Linux
+```
+
+Run it before and after `./run_all.sh`. On Linux x86-64 every file verifies unchanged after a full run. On other platforms (e.g. macOS arm64) three files differ only by floating-point rounding at the 1e-13 level: `results/_state_R.npy`, `results/_state_t.npy` and the round-trip error printed in `results/validation.txt`. No reported value is affected.
+
+See `CHANGELOG.md` for what changed between versions.
 
 ## Requirements
 
@@ -59,6 +72,8 @@ code/         analysis scripts (numbered in run order) and shared libraries
 results/      all outputs — alignments, contact tables, matrices, docking poses, logs
 figures/      PyMOL .pml scripts and rendered PNGs
 run_all.sh    regenerates everything from the two PDB files
+MANIFEST.md5  md5 of every file in the package
+CHANGELOG.md  version history
 ```
 
 ## License
